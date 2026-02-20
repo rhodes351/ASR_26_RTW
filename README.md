@@ -4,19 +4,29 @@ Replication materials for Rhodes and VanHeuvelen (2026) "State RTW Laws and Econ
 In these files, we provide the County Business Pattern data and Stata code used in our analyses. The core data files needed to replicate the analyses include:
 
 -cbpco_panel - County Business Patterns data, 1946-2016. The underlying source for these data come from Eckert et al. (2020, 2022), IPUMS NHGIS (Schroeder et al. 2025), and the US Census Bureau. Files in the "create_cbpco_panel" provide raw data and Stata code used to construct this panel.
+
 -countylistdube - List of border counties from Dube et al. (2010)
+
 -pcd_data01-merge_controls2 - Dataset including RTW indicators and measures of state union density (Farber et al. 2021) and state policy leaning (Caughey and Warshaw 2016)
+
 -CountyPopulationDecennialEstimates - Dataset including county-level population estimates from IPUMS NHGIS (Schroeder et al. 2025)
+
 -bea_statevars - Dataset including Bureau of Economic Analysis state tax policy data (Slattery 2025)
+
 -export_ind_disagg - CSV file containing tax policy data from the Upjohn Institute (Bartik 2017)
+
 -bds_cty_data - A .dta file including county-level measures from the US Census's Business Dynamics Statistics Data
+
 -epi-productivity - A .dta file including state-level data on labor productivity from the Economic Policy Institute
 
 In addition, we provide the Stata (Stata/SE 19.0) code that we used to conduct the analyses:
 
 -MAIN_TEXT_ANALYSES_2025_12_19 - A .do file containing most of the main text and all of the supplemental appendix analyses
+
 -pcd_incentives01-upjohn - A .do file with code to generate the trends shown in Figure 5 (top and middle row)
+
 -pcd_incentives02-bea - A .do file with code to generate the trends shown in Figure 5 (bottom row)
+
 -pcd-epi-productivity - A .do file with code to analyze state-level labor productivity (Table S3 in the Online Supplement)
 
 The raw data files and do-files used to create the dataset can be found in the "Data/create_cbpco_panel" folder.
