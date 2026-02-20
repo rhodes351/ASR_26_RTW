@@ -28,7 +28,7 @@ In addition, we provide the Stata (Stata/SE 19.0) code that we used to conduct t
 
 -pcd-epi-productivity - A .do file with code to analyze state-level labor productivity (Table S3 in the Online Supplement)
 
-The raw data files and do-files used to create the dataset can be found in the "Data/create_cbpco_panel" folder.
+The do-file used to create the pooled CBP analysis panel dataset can be found in the "Data/create_cbpco_panel" folder.
 
 For questions about these files, please contact Alec Rhodes (aprhodes@purdue.edu)
 
