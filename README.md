@@ -2,7 +2,7 @@ Replication materials for "The Right to Work and Economic Dynamism in US Countie
 
 In these files, we provide the County Business Pattern data and Stata code used in our analyses. The core data files needed to replicate the analyses include:
 
--cbpco_panel - County Business Patterns data, 1946-2016. The underlying source for these data come from Eckert et al. (2020, 2022), IPUMS NHGIS (Schroeder et al. 2025), and the US Census Bureau. Files in the "create_cbpco_panel" provide raw data and Stata code used to construct this panel.
+-cbpco_panel - County Business Patterns data, 1946-2016. The underlying source for these data come from Eckert et al. (2020, 2022), IPUMS NHGIS (Schroeder et al. 2025), and the US Census Bureau. Files in the "create_cbpco_panel" provide the Stata code used to construct this panel.
 
 -countylistdube - List of border counties from Dube et al. (2010)
 
@@ -27,8 +27,6 @@ In addition, we provide the Stata (Stata/SE 19.0) code that we used to conduct t
 -pcd_incentives02-bea - A .do file with code to generate the trends shown in Figure 5 (bottom row)
 
 -pcd-epi-productivity - A .do file with code to analyze state-level labor productivity (Table S3 in the Online Supplement)
-
-The do-file used to create the pooled CBP analysis panel dataset can be found in the "Data/create_cbpco_panel" folder.
 
 For questions about these files, please contact Alec Rhodes (aprhodes@purdue.edu)
 
